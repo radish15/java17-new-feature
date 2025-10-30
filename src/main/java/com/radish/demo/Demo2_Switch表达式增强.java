@@ -12,8 +12,8 @@ public class Demo2_Switch表达式增强 {
 
 	static void demo1 (String type) {
 		switch (type) {
-			case "a" -> System.out.println("A");
-			case "b" -> System.out.println("B");
+			case "a", "A" -> System.out.println("A");
+			case "b", "B" -> System.out.println("B");
 			default -> System.out.println("404");
 		};
 	}
